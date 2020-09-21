@@ -1,0 +1,43 @@
+body {
+
+    background-color: pink;
+    font-family: lato;
+}
+
+#mainNavbar .navbar-brand {
+
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+
+    font-size: 1.5rem;
+    color: #ea1c2c;
+}
+
+#mainGroup span {
+
+    color: #ea1c2c;
+}
+
+#mainGroup h1 {
+
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+@media (max-width : 1200px)
+{
+    #mainGroup h1 {
+
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+}
